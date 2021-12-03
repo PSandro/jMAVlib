@@ -3,17 +3,9 @@ plugins {
     id 'maven-publish'
 }
 
-sourceCompatibility = JavaVersion.VERSION_1_8
+sourceCompatibility = JavaVersion.VERSION_1_9
 group = 'me.drton'
 version = '0.1.0'
-
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    implementation 'javax.vecmath:vecmath:1.5.2'
-}
 
 publishing {
     repositories {
